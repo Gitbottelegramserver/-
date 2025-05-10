@@ -1,0 +1,6 @@
+TELEGRAM_TOKEN = "your_telegram_token"
+API_URL = "https://example.com/api"
+API_KEY = "your_api_key"
+COURSE_LINK = "https://yourcourse.com/access"
+USDT_WALLET_ADDRESS = "your_usdt_wallet_address"
+BANK_ACCOUNT_DETAILS = "your_bank_account_details"
