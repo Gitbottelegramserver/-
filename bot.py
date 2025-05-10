@@ -1,6 +1,6 @@
 from telegram.ext import Updater
 from config import TELEGRAM_TOKEN
-from handlers import register_handlers
+from handlers.handlers import register_handlers
 
 def main():
     updater = Updater(TELEGRAM_TOKEN)
