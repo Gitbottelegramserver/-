@@ -1,6 +1,8 @@
-TELEGRAM_TOKEN = "your_telegram_token"
-API_URL = "https://example.com/api"
-API_KEY = "your_api_key"
-COURSE_LINK = "https://yourcourse.com/access"
-USDT_WALLET_ADDRESS = "your_usdt_wallet_address"
-BANK_ACCOUNT_DETAILS = "your_bank_account_details"
+import os
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+API_URL = os.getenv("API_URL")
+API_KEY = os.getenv("API_KEY")
+COURSE_LINK = os.getenv("COURSE_LINK")
+USDT_WALLET_ADDRESS = os.getenv("USDT_WALLET_ADDRESS")
+BANK_ACCOUNT_DETAILS = os.getenv("BANK_ACCOUNT_DETAILS")
